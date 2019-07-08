@@ -1,0 +1,6 @@
+<!DOCTYPE html metal:define-macro="layout">
+<html lang="{{ '{{request.locale_name}}' }}">
+<body>
+body
+</body>
+</html>

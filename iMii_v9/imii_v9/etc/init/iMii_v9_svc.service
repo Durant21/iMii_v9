@@ -3,7 +3,7 @@ Description=uWSGI iMii_v9 server instance
 After=syslog.target
 
 [Service]
-ExecStart=/usr/local/bin/uwsgi --ini-paste /webapps/iMii_v9/iMii_v9/iMii_v9/production.ini
+ExecStart=/usr/local/bin/uwsgi --ini-paste /webapps/iMii_v9/iMii_v9/imii_v9/production.ini
 # Requires systemd version 211 or newer
 RuntimeDirectory=/webapps/iMii_v9/iMii_v9/iMii_v9/
 Restart=always
